@@ -16,6 +16,7 @@
 		C0064C2729254564005B39AB /* xilophoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0064C2629254564005B39AB /* xilophoneTests.swift */; };
 		C0064C3129254564005B39AB /* xilophoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0064C3029254564005B39AB /* xilophoneUITests.swift */; };
 		C0064C3329254564005B39AB /* xilophoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0064C3229254564005B39AB /* xilophoneUITestsLaunchTests.swift */; };
+		C0064C4029254A14005B39AB /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = C0064C3F29254A14005B39AB /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C0064C2C29254564005B39AB /* xilophoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xilophoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0064C3029254564005B39AB /* xilophoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xilophoneUITests.swift; sourceTree = "<group>"; };
 		C0064C3229254564005B39AB /* xilophoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xilophoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0064C3F29254A14005B39AB /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		C0064C0329254563005B39AB = {
 			isa = PBXGroup;
 			children = (
+				C0064C3F29254A14005B39AB /* Sounds */,
 				C0064C0E29254563005B39AB /* xilophone */,
 				C0064C2529254564005B39AB /* xilophoneTests */,
 				C0064C2F29254564005B39AB /* xilophoneUITests */,
@@ -233,6 +236,7 @@
 			files = (
 				C0064C1C29254564005B39AB /* LaunchScreen.storyboard in Resources */,
 				C0064C1929254564005B39AB /* Assets.xcassets in Resources */,
+				C0064C4029254A14005B39AB /* Sounds in Resources */,
 				C0064C1729254563005B39AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +449,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +478,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
